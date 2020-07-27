@@ -46,6 +46,9 @@ p {
     margin: 0px;
     border-right: 1px solid black;
 }
+#about {
+    overflow: auto;
+}
 #text {
     padding-left: 50px;
     padding-right: 50px;
