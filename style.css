@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 895px;
+    background-color: white;
+}
+h1 {
+    border-bottom: 1px solid black;
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+}
+h3 {
+   margin-top: 20px; 
+   margin-bottom: 20px;
+}
+h5 {
+    margin-top: 20px; 
+    margin-bottom: 20px;
+ }
+ul {
+    list-style-type: circle;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+input {
+    width: 200px;
+    font-size: 15px;
+    padding: 2px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+p {
+    text-align: justify;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+#gridLayout { 
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    border-bottom: 1px solid black;
+}
+#yearList {
+    margin: 0px;
+    border-right: 1px solid black;
+}
+#text {
+    padding-left: 50px;
+    padding-right: 50px;
+    border-bottom: 1px solid black;
+}
+#color{
+    display: grid;
+    grid-template-rows: 1fr 8.5fr;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#colorBox{
+    background-color: #0f4c81;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
