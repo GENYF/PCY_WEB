@@ -1,5 +1,5 @@
 function colorHandler(self, color){
-    var text = document.getElementById("yearText")
+    var text = document.getElementById("yearText");
     var box = document.getElementById("colorBox");
     var value = self.value;
 
